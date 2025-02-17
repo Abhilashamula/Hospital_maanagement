@@ -21,7 +21,7 @@ function App() {
   return (
     
     <Router>
-       <Toaster position="top-right" reverseOrder={false} />
+       <Toaster position="top-right" reverseOrder={false}/>
       <Routes>
      
 

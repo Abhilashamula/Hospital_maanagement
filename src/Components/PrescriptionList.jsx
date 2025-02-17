@@ -65,7 +65,7 @@ const PrescriptionList = () => {
             </thead>
             <tbody>
               {prescriptions.map((prescription, index) => (
-                <tr key={index} className="hover:text-green-600 border-b hover:bg-gray-100 transition">
+                <tr key={index} className="text-center hover:text-green-600 border-b hover:bg-gray-100 transition">
                   {Object.values(prescription).map((value, i) => (
                     <td key={i} className="p-3">{value}</td>
                   ))}

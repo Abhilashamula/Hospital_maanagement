@@ -6,7 +6,7 @@ import Sidebar from "../AppComponents/SideBar";
 import toast from "react-hot-toast";
 
 const AppLayout = () => {
-  const [isOpen, setIsOpen] = useState(false); // Sidebar remains open by default
+  const [isOpen, setIsOpen] = useState(false); // Sidebar remains close by default
   const location = useLocation(); // Track route changes
   const navigate = useNavigate();
   const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Control sidebar state
